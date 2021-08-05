@@ -1,0 +1,47 @@
+.cross {
+  font-weight: bolder;
+  font-size: 10rem;
+  background: linear-gradient(to right, #1560bd, #00ffff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.sym-box {
+  position: relative;
+}
+.cross::before {
+  content: "";
+  position: absolute;
+  bottom: 19px;
+  left: 5%;
+  width: 90%;
+  height: 20px;
+  background: #1560bd;
+  border-radius: 50%;
+  z-index: 1;
+  filter: blur(11px);
+}
+.circle {
+  font-weight: bolder;
+  font-size: 10rem;
+  background: linear-gradient(to right, #ff6600, #ffbe45);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.circle::before {
+  content: "";
+  position: absolute;
+  bottom: 19px;
+  left: 5%;
+  width: 90%;
+  height: 20px;
+  background: #ff6600;
+  border-radius: 50%;
+  z-index: 1;
+  filter: blur(11px);
+}
+@media only screen and (max-width: 768px) {
+  .cross,
+  .circle {
+    font-size: 8rem;
+  }
+}

@@ -1,0 +1,55 @@
+.container-homepage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: whitesmoke;
+  align-items: center;
+}
+.symbols {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  margin-bottom: 30px;
+  font-size: 29px;
+}
+.div-btns {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+.btn {
+  display: block;
+  border-radius: 28px;
+  padding: 11px 10px;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  margin: 10px 0;
+  background-color: white;
+  box-shadow: 2px 5px 4px 0px grey;
+  cursor: pointer;
+}
+.btn-blue {
+  color: white;
+  background-color: #1560bd;
+  cursor:not-allowed;
+}
+.settings {
+  padding: 9px;
+  border-radius: 50%;
+  background-color: white;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 5px 2px grey;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.set-ico {
+  font-size: 25px;
+  background: linear-gradient(to right, #1560bd, #00ffff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}

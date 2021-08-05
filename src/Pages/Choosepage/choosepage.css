@@ -1,0 +1,37 @@
+.choose-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+.choose-page > p {
+  margin: 10px 0;
+  font-size: 29px;
+}
+.choose-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.choose-box > label {
+  margin: 0 1.5rem;
+}
+input[type="radio"] {
+  border: 0;
+  width: 2em;
+  height: 2em;
+}
+.continue {
+  display: block;
+  border-radius: 26px;
+  padding: 9px 39px;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  margin: 10px 0;
+  background-color: white;
+  box-shadow: 2px 5px 4px 0px grey;
+  cursor: pointer;
+}
